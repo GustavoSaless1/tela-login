@@ -2,7 +2,7 @@
 
 Interface de login responsiva desenvolvida com HTML e CSS. O projeto foi criado para praticar estruturação semântica, estilização de formulários, responsividade e efeitos visuais modernos.
 
-![Prévia da tela de login](docs/preview.png?v=2)
+![Prévia da tela de login](docs/tela-login-preview.png)
 
 ## Demonstração
 
@@ -19,7 +19,7 @@ Interface de login responsiva desenvolvida com HTML e CSS. O projeto foi criado 
 
 > Este projeto apresenta somente a interface. A autenticação de usuários ainda não está conectada a um servidor ou banco de dados.
 
-## Tecnologias utilizadas
+## Ferramentas do projeto
 
 - HTML5
 - CSS3
