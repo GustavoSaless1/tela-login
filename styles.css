@@ -74,8 +74,16 @@ body {
 .remember-forgot {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 16px;
     margin: -15px 0 15px;
+    font-size: 14px;
     
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
 }
 
 /*
@@ -100,6 +108,7 @@ margin & padding
 .remember-forgot a {
     text-decoration: none;
     color: #fff;
+    white-space: nowrap;
 
 }
 
@@ -180,6 +189,18 @@ margin & padding
     background-color: #0a66c2;
     border-color: #0a66c2;
     transform: translateY(-2px);
+}
+
+@media (max-width: 420px) {
+    .container {
+        padding: 25px 20px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
 }
 
 
